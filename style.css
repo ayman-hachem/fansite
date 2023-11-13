@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif; 
+    text-align: justify;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    text-align: justify;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#game {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#game h1 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#game h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#game p {
+    margin-bottom: 20px;
+}
+
+#game ul {
+    list-style: none;
+}
+
+#game ul li {
+    margin-bottom: 10px;
+}
+
+#game img {
+    display: block; 
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    display: inline-block; 
+    color: white;
+    text-decoration: none;
+}
+
+footer a img {
+    max-width: 100px;
+}
+
+
+footer a h1 {
+    font-size: 18px;
+}
+
+/* marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+ 
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#anim {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+footer img {
+    max-width: 100px; 
+}
+
+
+/* En-tête */
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Logo de l'entreprise */
+header img {
+    max-width: 100px;
+}
+
+/* Section "entreprise" */
+#entreprise {
+  
+    background-color: white; 
+}
+
+main {
+    height: calc( 100vh - 100px);
+}
+
+#entreprise h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#entreprise p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#entreprise img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    max-width: 100px; 
+}
